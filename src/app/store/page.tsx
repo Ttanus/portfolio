@@ -16,7 +16,7 @@ export default function StorePage() {
         {/* Fab.com Card */}
         <div className="bg-neutral-900 rounded-2xl p-8 flex flex-col items-center shadow-lg hover:shadow-purple-500/10 transition">
           <Image
-            src="/assets/images/logos/fab_logo.png"
+            src="assets/images/logos/fab_logo.png"
             alt="Fab.com"
             width={100}
             height={100}
@@ -40,7 +40,7 @@ export default function StorePage() {
         <div className="bg-neutral-900 rounded-2xl p-8 flex flex-col items-center shadow-lg hover:shadow-red-500/10 transition">
           <div className="relative w-[140px] h-[60px] mb-6">
             <Image
-              src="/assets/images/logos/itchio_logo.png"
+              src="assets/images/logos/itchio_logo.png"
               alt="itch.io"
               fill
               className="object-contain"

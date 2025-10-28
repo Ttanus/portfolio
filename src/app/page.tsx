@@ -34,7 +34,7 @@ export default function Home() {
           className="relative mx-auto w-40 h-40 mb-6 rounded-full overflow-hidden ring-4 ring-emerald-500/40 shadow-xl"
         >
           <Image
-            src="/assets/images/self/selfie.jpg"
+            src="assets/images/self/selfie.jpg"
             alt="Kelvin Adrian Darmawan"
             fill
             className="object-cover"
@@ -66,7 +66,7 @@ export default function Home() {
             {/* Glow background for Unreal logo */}
             <div className="absolute inset-0 bg-white/15 rounded-full blur-lg"></div>
             <img
-              src="/assets/images/logos/Unreal_Engine_Logo.png"
+              src="assets/images/logos/Unreal_Engine_Logo.png"
               alt="Unreal Engine"
               className="relative w-16 h-16 object-contain drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]"
             />
@@ -82,7 +82,7 @@ export default function Home() {
             {/* Glow background for Blender logo */}
             <div className="absolute inset-0 bg-orange-400/20 rounded-full blur-lg"></div>
             <img
-              src="/assets/images/logos/Blender_Logo.png"
+              src="assets/images/logos/Blender_Logo.png"
               alt="Blender"
               className="relative w-16 h-16 object-contain drop-shadow-[0_0_10px_rgba(255,150,50,0.6)]"
             />
