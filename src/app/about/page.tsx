@@ -1,3 +1,6 @@
+import Link from "next/link";
+import certificates from "@/data/certificates";
+
 export default function AboutPage() {
   return (
     <section className="min-h-screen bg-black text-white px-8 py-20 max-w-4xl mx-auto">
@@ -42,16 +45,22 @@ export default function AboutPage() {
         </ul>
       </div>
 
-      {/* Certifications */}
+      {/* Certifications Section */}
       <div className="bg-gray-900/50 border border-gray-800 rounded-2xl p-6 mb-8">
         <h2 className="text-2xl font-semibold text-blue-400 mb-4">Certifications</h2>
-        <ul className="list-disc list-inside text-gray-300 text-sm space-y-1">
-          <li>Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games</li>
-          <li>Unreal Engine 5 Megacourse: Create Games in UE5 & Blender</li>
-          <li>Unreal Engine 5 - Gameplay Ability System - Top Down RPG</li>
-          <li>Blender Character Creator for Video Games Design</li>
-          <li>Introduction to 3D Sculpting in Blender - Model a Dragon</li>
-          <li>Blender Animation & Rigging: Bring Your Creations to Life</li>
+        <ul className="list-disc list-inside text-gray-300 text-sm space-y-2">
+          {certificates.map((cert, index) => (
+            <li key={index}>
+              <Link
+                href={cert.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-200"
+              >
+                {cert.name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     </section>
