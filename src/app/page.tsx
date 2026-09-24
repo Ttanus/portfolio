@@ -51,7 +51,7 @@ export default function Home() {
         <p className="text-lg text-gray-400 mb-6">
           <span className="text-emerald-400 font-medium">Gameplay Programmer</span> •{" "}
           <span className="text-sky-400 font-medium">Unreal Engine Developer</span> •{" "}
-          <span className="text-violet-400 font-medium">3D Artist</span>
+          <span className="text-violet-400 font-medium">Gameplay Systems</span>
         </p>
 
         {/* Tech Logos */}

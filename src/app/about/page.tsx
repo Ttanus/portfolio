@@ -7,47 +7,80 @@ export default function AboutPage() {
       <h1 className="text-4xl font-bold mb-6">About Me</h1>
 
       <p className="text-gray-300 leading-relaxed mb-4">
-        Hi! I’m <span className="text-blue-400 font-semibold">Kelvin Adrian Darmawan</span> — a passionate{" "}
-        <span className="text-blue-400 font-semibold">Gameplay Programmer</span> and{" "}
-        <span className="text-blue-400 font-semibold">3D Artist</span> from Indonesia.
+        Hi! I’m{" "}
+        <span className="text-blue-400 font-semibold">
+          Kelvin Adrian Darmawan
+        </span>{" "}
+        — a{" "}
+        <span className="text-blue-400 font-semibold">
+          Gameplay Programmer
+        </span>{" "}
+        from Indonesia, focused on building gameplay systems and interactive
+        game experiences.
       </p>
 
       <p className="text-gray-400 leading-relaxed mb-4">
-        I’m deeply interested in creating interactive gameplay experiences using{" "}
-        <span className="text-blue-400">Unreal Engine 5</span>, both through{" "}
+        I have professional experience developing and publishing game
+        experiences from planning through release. My work includes
+        implementing gameplay systems such as interactions, checkpoints,
+        timers, round systems, teleportation, health and damage adjustments,
+        and UI.
+      </p>
+
+      <p className="text-gray-400 leading-relaxed mb-4">
+        My main technical focus is{" "}
+        <span className="text-blue-400">Unreal Engine 5</span>, using both{" "}
         <span className="text-blue-400">C++</span> and{" "}
-        <span className="text-blue-400">Blueprints</span>. Over the past year, I’ve built small but meaningful gameplay systems
-        — from character controls and traversal mechanics to AI behaviors — while sharpening my problem-solving and debugging skills.
+        <span className="text-blue-400">Blueprint</span>. I enjoy designing
+        gameplay logic, solving technical problems, testing features, and
+        iterating on systems to create polished player-facing experiences.
       </p>
 
       <p className="text-gray-400 leading-relaxed mb-4">
-        Alongside programming, I enjoy modeling and animating in{" "}
-        <span className="text-blue-400">Blender</span>, especially creating stylized and semi-realistic 3D assets that
-        complement gameplay worlds. I find great satisfaction in merging logic and artistry — bringing ideas to life
-        through smooth mechanics, visual appeal, and strong player feedback.
+        I also build independent Unreal Engine projects. One of my projects is
+        a data-driven{" "}
+        <span className="text-blue-400">Achievement System</span> built with
+        Blueprint, featuring progress tracking, unlock logic, save/load
+        functionality, UI, and notifications. The system has been commercially
+        published on Fab.
       </p>
 
       <p className="text-gray-400 leading-relaxed mb-8">
-        I’m eager to keep learning and growing in a collaborative environment where creativity, persistence,
-        and curiosity drive every project forward.
+        Alongside programming, I have experience with{" "}
+        <span className="text-blue-400">Blender</span> for creating and
+        integrating 3D assets, rigging, and animation. I enjoy working across
+        different parts of game development while keeping gameplay and player
+        experience at the center of my work.
       </p>
 
       {/* Skills Section */}
       <div className="bg-gray-900/50 border border-gray-800 rounded-2xl p-6 mb-8">
-        <h2 className="text-2xl font-semibold text-blue-400 mb-4">Skills & Tools</h2>
+        <h2 className="text-2xl font-semibold text-blue-400 mb-4">
+          Skills & Tools
+        </h2>
+
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-gray-300 text-sm">
           <li>Unreal Engine 5</li>
-          <li>C++ / Blueprints</li>
-          <li>Blender</li>
+          <li>C++</li>
+          <li>Blueprint</li>
+          <li>Gameplay Programming</li>
           <li>Gameplay Systems</li>
-          <li>AI & Character Logic</li>
-          <li>3D Modeling & Animation</li>
+          <li>Game Mechanics</li>
+          <li>Interaction Systems</li>
+          <li>UI / UMG</li>
+          <li>Save & Load Systems</li>
+          <li>Blender</li>
+          <li>3D Modeling</li>
+          <li>Animation & Rigging</li>
         </ul>
       </div>
 
       {/* Certifications Section */}
       <div className="bg-gray-900/50 border border-gray-800 rounded-2xl p-6 mb-8">
-        <h2 className="text-2xl font-semibold text-blue-400 mb-4">Certifications</h2>
+        <h2 className="text-2xl font-semibold text-blue-400 mb-4">
+          Certifications
+        </h2>
+
         <ul className="list-disc list-inside text-gray-300 text-sm space-y-2">
           {certificates.map((cert, index) => (
             <li key={index}>
